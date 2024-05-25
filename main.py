@@ -1,4 +1,5 @@
 import logging
+import random
 
 from telegram import Update
 from telegram.ext import (
@@ -9,7 +10,7 @@ from telegram.ext import (
     filters,
 )
 
-from nlp import is_noun_follows_verb
+import nlp
 from settings import Settings
 
 # Load environment variables
@@ -29,23 +30,18 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 async def message_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    # Get the message text content
-    msg_content = update.effective_message.text
+    msg = update.effective_message
+    msg_content = msg.text
 
-    # Ignore messages without text
     if not msg_content:
         return
-    
-    # Check that the message doesn't have more than 5 words
-    if len(msg_content.split()) > 5:
-        return
 
-    # Check if a noun immediately follows a verb
-    is_follows_verb, verb = is_noun_follows_verb(msg_content)
-    if is_follows_verb:
-        await update.effective_message.reply_text(f"{verb} deez")
+    # generate exploitable phrases
+    exploitable_phrases = nlp.find_exploitable_phrases(msg_content)
 
-    return
+    phrase = random.choice(exploitable_phrases)
+
+    await msg.reply_text(phrase)
 
 
 if __name__ == "__main__":
