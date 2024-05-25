@@ -25,6 +25,7 @@ pip==24.0
 preshed==3.0.9
 pydantic==2.7.1
 pydantic-core==2.18.2
+pydantic-settings==2.2.1
 python-telegram-bot==21.2
 requests==2.32.2
 setuptools==70.0.0
