@@ -41,7 +41,7 @@ async def message_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     phrase = random.choice(exploitable_phrases)
 
-    await msg.reply_text(phrase)
+    await msg.reply_text(f"{phrase} deez")
 
 
 if __name__ == "__main__":
