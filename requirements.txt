@@ -10,7 +10,7 @@ confection==0.1.4
 cymem==2.0.8
 # en-core-web-sm==3.7.1 (from https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl)
 h11==0.14.0
-httpcore==1.0.5
+httpcore==1.0.9
 httpx==0.27.0
 idna==3.7
 jinja2==3.1.4
