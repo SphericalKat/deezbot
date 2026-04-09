@@ -18,7 +18,7 @@ langcodes==3.4.0
 language-data==1.2.0
 marisa-trie==1.1.1
 markupsafe==2.1.5
-murmurhash==1.0.10
+murmurhash==1.0.15
 numpy==1.26.4
 packaging==24.0
 pip==24.0
