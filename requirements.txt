@@ -14,7 +14,7 @@ httpcore==1.0.5
 httpx==0.27.0
 idna==3.7
 jinja2==3.1.4
-langcodes==3.4.0
+langcodes==3.5.1
 language-data==1.2.0
 marisa-trie==1.1.1
 markupsafe==2.1.5
