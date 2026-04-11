@@ -16,7 +16,7 @@ idna==3.7
 jinja2==3.1.4
 langcodes==3.4.0
 language-data==1.2.0
-marisa-trie==1.1.1
+marisa-trie==1.4.1
 markupsafe==2.1.5
 murmurhash==1.0.10
 numpy==1.26.4
