@@ -20,7 +20,7 @@ marisa-trie==1.1.1
 markupsafe==2.1.5
 murmurhash==1.0.10
 numpy==1.26.4
-packaging==24.0
+packaging==24.2
 pip==24.0
 preshed==3.0.9
 pydantic==2.7.1
