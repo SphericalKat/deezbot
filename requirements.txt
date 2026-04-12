@@ -35,7 +35,7 @@ spacy==3.7.4
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
-srsly==2.4.8
+srsly==2.5.3
 thinc==8.2.3
 tqdm==4.66.4
 typer==0.9.4
