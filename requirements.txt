@@ -43,4 +43,4 @@ typing-extensions==4.12.0
 urllib3==2.2.1
 wasabi==1.1.2
 weasel==0.3.4
-wheel==0.43.0
+wheel==0.47.0
