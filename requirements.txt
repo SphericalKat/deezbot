@@ -39,7 +39,7 @@ srsly==2.4.8
 thinc==8.2.3
 tqdm==4.66.4
 typer==0.9.4
-typing-extensions==4.12.0
+typing-extensions==4.16.0
 urllib3==2.2.1
 wasabi==1.1.2
 weasel==0.3.4
