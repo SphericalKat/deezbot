@@ -1,6 +1,6 @@
 annotated-types==0.7.0
 anyio==4.3.0
-blis==0.7.11
+blis==0.9.1
 catalogue==2.0.10
 certifi==2024.2.2
 charset-normalizer==3.3.2
